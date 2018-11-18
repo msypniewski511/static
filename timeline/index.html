@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Responsive Slider Timeline</h1>
+    <div class="timeline">
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=10)" data-year="2016">
+            <div class="swiper-slide-content">
+              <span class="timeline-year"> 2016</span>
+              <h4 class="timeline-title">Our nice super title</h4>
+              <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit,
+                sed do eisumod tempor incididut ut labore et dolore magna aliqua.
+                Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=11)" data-year="2017">
+            <div class="swiper-slide-content">
+              <span class="timeline-year"> 2017</span>
+              <h4 class="timeline-title">Our nice super title</h4>
+              <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit,
+                sed do eisumod tempor incididut ut labore et dolore magna aliqua.
+                Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=12)" data-year="2018-06">
+            <div class="swiper-slide-content">
+              <span class="timeline-year"> 2018 First Half Year</span>
+              <h4 class="timeline-title">Our nice super title</h4>
+              <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit,
+                sed do eisumod tempor incididut ut labore et dolore magna aliqua.
+                Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image: url(https://unsplash.it/1920/500?image=81)" data-year="2018-12">
+            <div class="swiper-slide-content">
+              <span class="timeline-year"> 2018 second part</span>
+              <h4 class="timeline-title">Our nice super title</h4>
+              <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit,
+                sed do eisumod tempor incididut ut labore et dolore magna aliqua.
+                Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <!-- <script>
+            const $swipper_wrapper = document.querySelector('.swiper-wrapper');
+            for (var i = 1; i <= 6; ++i) {
+              let element = document.createElement('div');
+              element.className = "swiper-slide";
+              element.style = `background-image: url(https://unsplash.it/1920/500?image=1${i}`;
+              element.innerHTML = `<div class="swiper-slide-content">
+                <span class="timeline-year"> 201${i}</span>
+                <h4 class="timeline-title">Our nice super title</h4>
+                <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, 
+                  sed do eisumod tempor incididut ut labore et dolore magna aliqua. 
+                  Ut enim ad mimim venjam, quis nostrud exercitation ullamco 
+                  laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>`
+              element.setAttribute('data-year', `201${i}`);
+              $swipper_wrapper.appendChild(element);
+            }
+          </script> -->
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44">
+            <path d="M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z">
+          </svg> -->
+        </div>
+        <div class="swiper-button-next swiper-button-blue">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44">
+            <path d="M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z">
+          </svg> -->
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="
+          swiper-scrollbar"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
